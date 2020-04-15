@@ -35,7 +35,7 @@ class Information(commands.Cog):
         # Do not remove this command, this has to stay due to the GitHub LICENSE.
         # TL:DR, you have to disclose source according to GNU GPL v3.
         # Reference: https://github.com/AlexFlipnote/discord_bot.py/blob/master/LICENSE
-        await ctx.send(f"**{ctx.bot.user}** is powered by this source code:\nhttps://github.com/cercos/qoinbot")
+        await ctx.send(f"**{ctx.bot.user}** is powered by this source code:\nhttps://github.com/cercos/qoinbot | Thanks alot :)")
 
     @commands.command(aliases=['supportserver', 'feedbackserver'])
     async def botserver(self, ctx):
@@ -86,13 +86,13 @@ class Information(commands.Cog):
         if hasattr(ctx, 'guild') and ctx.guild is not None:
             embedColour = ctx.me.top_role.colour
 
-        description = "Help support Qoinbot, donations help keep the bot up and running and with server maintenance."
+        description = "Help support CryptoGame, donations help keep the bot up and running and with server maintenance."
         embed = discord.Embed(colour=embedColour, description=description)
         embed.set_thumbnail(url=ctx.bot.user.avatar_url)
 
-        embed.add_field(name="BTC", value="3Guy7yjZ1mv1QkBPPB6fCWvzAEdgKqTN2C")
-        embed.add_field(name="ETH", value="0x7e72A56BB88ecB4d48177eAc677E13e6B4817100")
-        embed.add_field(name="XLM", value="GBXI2S7RJHGB7WUSUG2MQFHSFABLK4QFSPPWYS2GM6BYZ3JBAXRPJ2XQ")
+        embed.add_field(name="BTC", value="Just tip Meh")
+        embed.add_field(name="ETH", value="Just tip meh")
+        embed.add_field(name="XLM", value="Just tip meH")
 
         await ctx.send(content=f"Support **{ctx.bot.user.name}**", embed=embed)
 
