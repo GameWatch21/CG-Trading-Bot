@@ -1,0 +1,19 @@
+{
+  "token": "Njk0MTM0MzM5NDY1NjQyMDE0.XpbpNQ.ar7rDCnZzLfxu_vjB4v_r3gLPbQ",
+  "owners": [
+    86477779717066752
+  ],
+  "join_message": "I has joined to do stuff 🌟",
+  "prefix": [
+    "tr!"
+  ],
+  "cache": {
+    "coins": 100
+  },
+  "playing": "tr!help | Trading for CG",
+  "economy": {
+    "currency_name": "CryptoGame Token",
+    "start_money": 100,
+    "start_wage": 25
+  }}
+
