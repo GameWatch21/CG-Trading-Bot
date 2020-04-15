@@ -12,7 +12,7 @@ import chalk
 
 config = default.get("config.json")
 description = """
-A cryptocurrency super bot
+A Discord Trading bot made for CG Discord Server
 """
 
 
